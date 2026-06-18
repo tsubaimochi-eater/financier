@@ -161,7 +161,7 @@ td {
     color: #403131e9;
     font-weight: bold;
     width: 100%;
-    padding: 20px;
+    padding: 10px;
 }
 
 .form-inner {
@@ -188,6 +188,9 @@ td {
     display: inline-block;
 }
 
+
+
+
 .input,
 .select,
 .textarea {
@@ -198,12 +201,20 @@ td {
     border: 1px solid #f6f3f3;
 }
 
+/* 修正 */
+.checkbox-group {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+
+
+}
+
 .textarea {
     min-height: 100px;
 }
 
-.radio,
-.checkbox {
+.radio {
     margin: 0 10px;
 }
 
@@ -231,7 +242,7 @@ button {
     align-items: center;
     justify-content: center;
 }
-.footer-map > iframe {
+.footer-map iframe {
     width: 60%;
 }
 .footer-mapinfo {
@@ -248,7 +259,7 @@ button {
 .footer-mapaddress {
     font-style: normal;
 }
-.footer-mapaddress > a{
+.footer-mapaddress a{
     color: #fff;
     
 }
@@ -277,7 +288,7 @@ button {
     font-weight: bold;
 }
  
-.top_button > a {
+.top_button a {
     color: #3e2626e9;
     background-color: #f6f3f39d;
     padding: 10px;
@@ -286,6 +297,6 @@ button {
 }
 
 
-.top_button > a:hover {
+.top_button a:hover {
     color: #793c3ce9;
 }
