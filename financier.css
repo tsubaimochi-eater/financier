@@ -1,0 +1,291 @@
+@charset "utf-8";
+
+body {
+    color: #403131e9;
+
+    background-image: linear-gradient(#f3ede857), 
+    url(financier_2.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+
+    font-size: 25px;
+    font-weight: normal;
+    
+
+
+}
+
+.explanation {
+    width: calc(80%);
+}
+
+.hero {
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+}
+
+
+
+
+.hero strong {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 80px;
+    color: #403131e9;
+    font-weight: bold;
+    display: block;
+    width: 100%;
+    text-align: center;
+
+
+}
+
+
+
+.header {
+    width: 98%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 0 15px;
+    position: fixed;
+    z-index: 10;
+    top: 0;
+    left: 0;
+
+    font-size: 20px;
+}
+
+.container {
+    margin: 0;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    list-style: none;
+
+    
+}
+
+.item {
+    
+    border-radius: 10px;
+    background-color: #cccccca5;
+    display: flex;
+    justify-content: flex-end;
+    margin: 10px
+    
+    
+}
+
+.item a {
+    display: block;
+    padding: 10px;
+    color: #403131e9;
+    font-weight: bold;
+    text-decoration: none;
+    border-bottom: 2px solid transparent;
+    transition: border-color 1s;
+
+    
+}
+
+.item a:hover {
+    border-bottom: 2px solid #333;
+    
+}
+
+h1, h2 {
+    font-size: 40px;
+    margin-bottom: 100px;
+    margin-top: 100px;
+}
+
+.shop a {
+    color: #3e2626e9;
+    text-shadow: 1.5px 1.5px 1.5px;
+    text-decoration: none;
+    border-bottom: 2px solid transparent;
+    transition: border-color 1s
+}
+.shop a:hover {
+    color: #784848e9;
+    border-bottom: 2px solid #3e2626e9;
+}
+
+
+
+
+table {
+    border-collapse: collapse;
+    text-align: center;
+    
+}
+
+
+table,
+th,
+td {
+    border: 1px solid #3e2626e9;
+    padding: 10px;
+    margin: 60px auto;
+    text-align: center;
+
+}
+
+.brands a {
+    color: #403131e9;
+    font-weight: bold;
+    text-decoration: none;
+    border-bottom: 2px solid transparent;
+    transition: border-color .8s ;
+}
+
+.brands a:hover {
+    border-bottom: 2px solid #300505ca;
+}
+
+
+
+ 
+.survey {
+    text-align: center;
+    color: #403131e9;
+}
+
+.form {
+    background-color: #f3dfcd9e;
+    color: #403131e9;
+    font-weight: bold;
+    width: 100%;
+    padding: 20px;
+}
+
+.form-inner {
+    width: 700px;
+    margin: 0 auto;
+}
+
+
+
+.form-row {
+    display: flex;
+    align-items: center;
+
+    margin-bottom: 15px;
+    
+    margin-left: auto;
+    margin-right: auto;
+   
+}
+
+.form-row label:first-child,
+.form-title {
+    width: 250px;
+    display: inline-block;
+}
+
+.input,
+.select,
+.textarea {
+    width: 300px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    padding: 10px;
+    border: 1px solid #f6f3f3;
+}
+
+.textarea {
+    min-height: 100px;
+}
+
+.radio,
+.checkbox {
+    margin: 0 10px;
+}
+
+label,
+button {
+    cursor: pointer;
+}
+
+.form-button {
+    text-align: center;
+}
+
+
+
+
+
+.footer {
+    background-color: #c1769d;
+    color: #fff;
+}
+.footer-map {
+    margin: 0;
+    padding: 40px 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer-map > iframe {
+    width: 60%;
+}
+.footer-mapinfo {
+    width: 40%;
+    padding: 15px;
+}
+.footer-maplogo {
+    font-size: 25px;
+    font-weight: bold;
+
+    display: flex;
+    align-items: center;
+}
+.footer-mapaddress {
+    font-style: normal;
+}
+.footer-mapaddress > a{
+    color: #fff;
+    
+}
+.footer-line {
+    border-color: #b38ca0;
+}
+.footer-copy {
+    display: block;
+    text-align: center;
+    padding: 10px;
+}
+
+.cinderella {
+    width: 60px;
+    height: 60px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}   
+
+
+.top_button {
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
+
+    font-weight: bold;
+}
+ 
+.top_button > a {
+    color: #3e2626e9;
+    background-color: #f6f3f39d;
+    padding: 10px;
+
+    border-radius: 10px;
+}
+
+
+.top_button > a:hover {
+    color: #793c3ce9;
+}
