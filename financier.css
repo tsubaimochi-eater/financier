@@ -227,6 +227,22 @@ button {
     text-align: center;
 }
 
+.link-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.link-items {
+    color: #403131e9;
+    text-decoration: none;
+    border-bottom: 2px solid transparent;
+    transition: border-color .8s;
+}
+
+.link-items:hover {
+    border-bottom: 2px solid #300505ca;
+
+}
 
 
 
